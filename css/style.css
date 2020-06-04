@@ -1,0 +1,93 @@
+.carousel {
+  margin: auto;
+  width: 800px;
+  height: auto;
+}
+
+@media (max-width: 800px) {
+  .carousel {
+    width: 100%;
+    height:auto;
+  }
+}
+
+.comments {
+  display:flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.form-group {
+  margin: auto;
+  width: 400px;
+  height: 100px;
+}
+
+
+@media (max-width: 800px) {
+  .form-group {
+    width: 100%;
+    height:auto;
+  }
+}
+
+.btnalign {
+  text-align: center;
+}
+
+.ropic {
+  margin: auto;
+  width: 400px;
+  height: auto;
+}
+
+@media (max-width: 900px) {
+  .ropic {
+    width: 100%;
+    height:auto;
+  }
+}
+
+.btnstyle {
+    display: block;
+    width: 100%;
+}
+.btn {
+  text-transform: uppercase;
+  font-weight: 700;
+  border-radius: 300px;
+}
+
+.btn-primary {
+  background-color: black;
+  border-color: black;
+}
+
+.btn-primary:hover {
+  background-color: brown;
+  border-color: brown;
+  border-width: 4px;
+}
+
+.btn-xl{
+  padding: 1rem 2rem;
+}
+.cd1{
+  background-color: lightpink;
+}
+.cd2{
+  background-color: lightblue;
+}
+.cd3{
+  background-color: lightgreen;
+}
+.cd4{
+  background-color: lightyellow;
+}
+.comments{
+  font-weight: 850;
+}
+.section {
+  background-image: url(28.jpg);
+  background-size: cover;
+}
