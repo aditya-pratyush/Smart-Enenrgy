@@ -224,7 +224,7 @@
                 <div class="ropic mt-3 mb-3">
                   <!-- <img src="pics/16.jpg" alt=""> -->
                 </div>
-                <form id="fs-frm" name="registration-form" accept-charset="utf-8" action="https://formspree.io/YOUR_EMAIL_HERE" method="post">
+                <form id="fs-frm" name="registration-form" accept-charset="utf-8" action="https://formspree.io/mknqgzdw" method="post">
   <fieldset id="fs-frm-inputs">
     <label for="full-name"><strong>Full Name</strong></label>
     <input type="text" name="name" id="full-name" placeholder="First and Last" required="">
@@ -262,8 +262,11 @@
       </select>
       <input type="text" name="postal-code" placeholder="12345" required="">
     </fieldset>
-    <label for="note">Note</label>
-    <textarea rows="2" name="note" id="note" placeholder="Registering as Farmer or Businessman"></textarea>
+    <label for="Registering as">Registering as: </label> <br>
+      <input type="checkbox" name="Registering as" value="Farmer">Farmer/Seller<br>
+      <input type="checkbox" name="Registering as" value="Businessman">Businessman<br><br>
+    <label for="note"><strong>Problem Statement</strong></label>
+    <textarea rows="2" name="note" id="note" placeholder="Problems Faced"></textarea>
     <input type="hidden" name="_subject" id="email-subject" value="Registration Form Submission">
   </fieldset>
   <input type="submit" value="Register">
